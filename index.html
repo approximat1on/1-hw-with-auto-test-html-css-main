@@ -69,7 +69,8 @@
         <button type="button" class="input-button">Добавить</button><!-- 6) Создай здесь кнопку “Добавить” -->
         <hr><!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         
-        <table border="1" borderdata-cy="hw-about-table-pre">
+        <table data-cy="hw-about-table-pre">
+        <table border="1">
             <thead>
                 <tr>
                     <th>п/п</th>
@@ -79,26 +80,26 @@
             </thead>
             <tbody>
             <tr>
-                <th>1</th>
-                <th>Монитор</th>
-                <th>2</th>
+                <td>1</td>
+                <td>Монитор</td>
+                <td>2</td>
             </tr>
             <tr>
-                <th>2</th>
-                <th>Клавиатура</th>
-                <th>1</th>
+                <td>2</td>
+                <td>Клавиатура</td>
+                <td>1</td>
             </tr>
             <tr>
-                <th>3</th>
-                <th>Мышь</th>
-                <th>1</th>
+                <td>3</td>
+                <td>Мышь</td>
+                <td>1</td>
             </tr>
             <tr>
-                <th cosplan="2">Итого:</th>
-                <th></th>
-                <th>4</th>
+                <td colspan="2">Итого:</td>
+                <td>4</td>
             </tr>
             </tbody>
+            </table>
         </table>       <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
